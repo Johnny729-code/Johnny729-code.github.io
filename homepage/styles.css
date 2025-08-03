@@ -269,7 +269,49 @@ body {
     border: none;
 }
 
-#robot-button {
-    border-radius: 50%;
-    border: none;
+.rectangle4 {
+    background-color: #B6D0E2;
+    height: 1700px;
+}
+
+#fun-facts-title {
+    font-family: "Times New Roman", times;
+    font-weight: 900;
+    font-size: 72px;
+    text-shadow: 2px 2px 4px rgba(0,0,0.4);
+    color: #4169E1;
+    position: absolute;
+    top: 2200px;
+    left: 50px;
+}
+
+#fun-facts-desc {
+    font-family: "Mulish", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #40826D;
+    position: absolute;
+    top: 2350px;
+    left: 50px;
+}
+
+#facts-accordion {
+    position: absolute;
+    top: 2450px;
+    left: 50px;
+    width: 800px;
+}
+
+.accordion {
+    font-family: "Mulish", sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.accordion-header {
+    font-weight: 900;
+}
+
+.accordion-button {
+    background-color: #A7C7E7;
 }
